@@ -1,0 +1,1 @@
+The included files, Index.html and IndexStyle.html, are files icluded to create the home page of my entertaignment webpage. Index.html includes the page's header/title, 3 temporary replacement for page links with their correspoing page information and a fotter entailing email contact information. The page is set up with 3 main colors, purple, orange, and white. 

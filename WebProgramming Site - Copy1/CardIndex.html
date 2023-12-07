@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CardStyle.css">
+    <title>Card Matching</title>
+</head>
+<body>
+    <h1>Card Matching</h1>
+
+    <div id="toolbar">
+        
+        <footer>
+            <form action="DrawingIndex.html">
+                <input type="submit" value="Drawing App" />
+            </form>
+            <form action="Index.html">
+                <input type="submit" value="Home Page" />
+            </form>
+        </footer>
+        
+        
+
+    </div>
+
+    <div class="grid-container" id="gridcontainer">
+    </div>
+    <p>Score: <span class="score"></span></p>
+    <div class="actions">
+        <button onclick="restart()">Restart</button>
+    </div>
+    <script src="CardCode.js"></script> <!--put this here so the html loads before javascript-->
+</body>
+</html>
